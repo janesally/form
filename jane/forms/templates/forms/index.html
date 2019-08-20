@@ -1,0 +1,6 @@
+<a href="/forms/1/fillForm">Fill it</a>
+{% if janelist %}
+    {% for jane in janelist %}
+        Form {{jane.first_name}} {{jane.animal}}
+    {% endfor %}
+{% endif %}

@@ -1,0 +1,21 @@
+The form
+
+<form action="submit" method="post">
+{% csrf_token %}
+First Name:<br>
+<input type="text" name="first" style="width:600px">
+<br>Last Name:<br>
+<input type="text" name="last">
+<br>Animal:<br>
+<input type="radio" name="animal" value="dog">Dog<br>
+<input type="radio" name="animal" value="cat">Cat<br>
+<input type="radio" name="animal" value="owl">Owl<br>
+<br>Verse:<br>
+<input type="text" name="verse">
+<br>Friend:<br>
+<input type="radio" name="friend" value="Kevin">KEVIN<br>
+<input type="radio" name="friend" value="Lynne">LYNNE<br>
+<br>
+<input type="submit" value="Submit">
+
+</form>
